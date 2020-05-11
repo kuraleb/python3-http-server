@@ -1,8 +1,8 @@
 import time
 from http.server import BaseHTTPRequestHandler, HTTPServer
 
-HOST_NAME = 'httpserver-test.127.0.0.1.nip.io'
-PORT_NUMBER = 80
+HOST_NAME = 'localhost'
+PORT_NUMBER = 8080
 
 
 class MyHandler(BaseHTTPRequestHandler):
